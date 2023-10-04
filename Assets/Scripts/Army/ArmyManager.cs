@@ -38,7 +38,6 @@ public abstract class ArmyManager : MonoBehaviour
 
         return enemies.FirstOrDefault()?.gameObject;
     }
-
     protected void ComputeStatistics(ref int nDrones,ref int nTurrets,ref int cumulatedHealth)
 	{
         nDrones = m_ArmyElements.Count(item => item is Drone);

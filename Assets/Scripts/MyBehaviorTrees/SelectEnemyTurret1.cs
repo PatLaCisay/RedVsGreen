@@ -5,7 +5,7 @@ using BehaviorDesigner.Runtime.Tasks;
 [TaskCategory("MyTasks")]
 [TaskDescription("Select non targeted enemy turret")]
 
-public class SelectEnemyTurret : Action
+public class SelectEnemyTurret1 : Action
 {
 	IArmyElement m_ArmyElement;
 	public SharedTransform target;
